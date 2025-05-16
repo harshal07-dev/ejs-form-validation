@@ -1,0 +1,36 @@
+<%- include('partials/header') %>
+
+<div
+  class="container d-flex justify-content-center align-items-center"
+  style="min-height: 100vh"
+>
+  <div
+    class="card border-success custom-glow p-4 w-100"
+    style="max-width: 500px"
+  >
+    <div class="card-body">
+      <h3 class="card-title text-success text-center mb-4">
+        Registration Successful
+      </h3>
+
+      <div class="alert alert-success text-center custom-submit-box">
+        Thank you for registering!😊
+      </div>
+
+      <ul class="list-group list-group-flush mb-4">
+        <li class="list-group-item">
+          <strong>Username:</strong> <%= user.username %>
+        </li>
+        <li class="list-group-item">
+          <strong>Email:</strong> <%= user.email %>
+        </li>
+      </ul>
+
+      <div class="text-center">
+        <a href="/" class="btn btn-outline-success">Back to Register</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include('partials/footer') %>

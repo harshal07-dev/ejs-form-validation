@@ -1,0 +1,10 @@
+/* public/css/style.css */
+body {
+  background-color: #232426;
+}
+.custom-glow {
+  box-shadow: 0 0 15px 5px rgb(160, 255, 181);
+}
+.custom-submit-box {
+  background-color: #78c7ff;
+}
